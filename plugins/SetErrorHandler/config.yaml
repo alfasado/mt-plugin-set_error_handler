@@ -1,0 +1,14 @@
+name: Set Error Handler
+id:   SetErrorHandler
+key:  seterrorhandler
+version: 0.1
+author_link: http://alfasado.net/
+author_name: Alfasado Inc.
+l10n_class: SetErrorHandler::L10N
+description: <__trans phrase="Override Error Handler for Dynamic Publishing.">
+tags:
+    block:
+        SetErrorHandler: $seterrorhandler::SetErrorHandler::Tags::_hdlr_set_error
+    function:
+        Error: $seterrorhandler::SetErrorHandler::Tags::_hdlr_error
+
