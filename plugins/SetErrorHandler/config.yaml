@@ -11,4 +11,6 @@ tags:
         SetErrorHandler: $seterrorhandler::SetErrorHandler::Tags::_hdlr_set_error
     function:
         Error: $seterrorhandler::SetErrorHandler::Tags::_hdlr_error
+callbacks:
+    MT::App::CMS::template_param.view_log: $seterrorhandler::SetErrorHandler::Plugin::_view_log
 
